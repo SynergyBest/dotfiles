@@ -7,3 +7,6 @@
 [submodule ".vim/plugged/vim-polyglot"]
 	path = .vim/plugged/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
+[submodule ".vim/plugged/vimsence"]
+	path = .vim/plugged/vimsence
+	url = https://github.com/vimsence/vimsence
