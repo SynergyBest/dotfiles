@@ -10,6 +10,7 @@ call plug#begin('$HOME/.dotfiles/.vim/plugged')
 
 Plug 'mhinz/vim-startify'
 Plug 'joshdick/onedark.vim'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
