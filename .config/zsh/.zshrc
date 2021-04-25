@@ -1,5 +1,9 @@
 DOTFILESDIR="$HOME/.dotfiles"
 CUSTOMRCDIR="$DOTFILESDIR/.customrc"
+#=============[ Zsh Options ]=============
+HISTSIZE=1000
+SAVEHIST=1000
+HISTFILE="$HOME/.zsh_history"
 
 #=============[ OhMyZsh ]=============
 if [[ -d $HOME/.oh-my-zsh ]]; then
