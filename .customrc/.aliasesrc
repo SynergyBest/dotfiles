@@ -1,0 +1,8 @@
+alias ls="lsd -l"
+alias nitro="/Users/theo/utils/nitrosniper/snipe"
+alias nitroconfig="code /Users/theo/utils/nitrosniper/settings.json"
+alias adminme="sudo dscl . -append /Groups/admin GroupMembership theo"
+alias deadminme="sudo dscl . -delete /Groups/admin GroupMembership theo || sudo dseditgroup -o edit -d theo -t user admin"
+alias python="python3"
+alias pip="pip3"
+alias cls="clear"

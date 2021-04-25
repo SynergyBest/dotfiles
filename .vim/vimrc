@@ -1,0 +1,23 @@
+"===========[ Cool stuffl ]===========
+set nocompatible
+set encoding=utf-8
+
+
+"===========[ End cool stuff ]
+
+"===========[ Plugin section ]===========
+call plug#begin('$HOME/.dotfiles/.vim/plugged')
+
+Plug 'mhinz/vim-startify'
+Plug 'joshdick/onedark.vim'
+
+call plug#end()
+
+"===========[ End plugin section ]===========
+
+syntax on
+set number
+colorscheme onedark
+"===========[ Quick vimrc shortcuts ]===========
+nnoremap <Leader>ve :e ~/.dotfiles/.vim/vimrc<CR>
+nnoremap <Leader>vr :source ~/.dotfiles/.vim/vimrc<CR>

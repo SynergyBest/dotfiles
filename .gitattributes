@@ -1,0 +1,4 @@
+*.aliasesrc linguist-language=Shell
+*.exportsrc linguist-language=Shell
+*.languagesrc linguist-language=Shell
+.config/git/config linguist-language=gitconfig
