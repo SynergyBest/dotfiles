@@ -1,7 +1,7 @@
 if [[ -d $HOME/.langs ]]; then
-    if [[ -d "$HOME/.langs/Python/3.9.4" ]]; then
-        PATH="$HOME/.langs/Python/3.9.4/bin:$PATH"
-    fi
+    # if [[ -d "$HOME/.langs/Python/3.9.4" ]]; then
+    #     PATH="$HOME/.langs/Python/3.9.4/bin:$PATH"
+    # fi
     if [[ -d "$HOME/.langs/go" ]]; then
         PATH="$HOME/.langs/go/bin:$PATH"
     fi

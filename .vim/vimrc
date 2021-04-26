@@ -1,31 +1,31 @@
-"===========[ Cool stuffl ]===========
-set nocompatible
-set encoding=utf-8
-set number
-set visualbell
-
-"===========[ End cool stuff ]
+ "===========[ Vim settings ]===========
+ set visualbell
+ set tabstop=4 softtabstop=4
+ set shiftwidth=4
+ set expandtab
+ set smartindent
+ set nowrap
+ set undodir=~/.vimundodir
+ set undofile
 
 "===========[ Plugin section ]===========
 call plug#begin('$HOME/.dotfiles/.vim/plugged')
 
-Plug 'mhinz/vim-startify'
-Plug 'joshdick/onedark.vim'
-Plug 'sheerun/vim-polyglot'
-Plug 'vimsence/vimsence'
+Plug 'mhinz/vim-startify' " Cool vim start screen
+Plug 'joshdick/onedark.vim' " Onedark theme for vim
+Plug 'sheerun/vim-polyglot' " Lots of language support for vim
+Plug 'vimsence/vimsence' " Discord rich presence for vim
+Plug 'tpope/vim-fugitive' " Git extensions for vim
+Plug 'leafgarland/typescript-vim' " Typescript support
+Plug 'ycm-core/YouCompleteMe'
 
 call plug#end()
-
-"===========[ End plugin section ]===========
 
 "===========[ Visuals ]===========
 syntax on
 colorscheme onedark
 
-"===========[ End Visuals ]===========
-
 "===========[ Quick vimrc shortcuts ]===========
 nnoremap <Leader>ve :e ~/.dotfiles/.vim/vimrc<CR>
 nnoremap <Leader>vr :source ~/.dotfiles/.vim/vimrc<CR>
 
-"===========[ End quick vimrc shortcuts ]===========
