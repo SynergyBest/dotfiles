@@ -6,3 +6,4 @@ alias deadminme="sudo dscl . -delete /Groups/admin GroupMembership theo || sudo 
 alias python="python3"
 alias pip="pip3"
 alias cls="clear"
+alias vimconfig="vim $HOME/.vim/vimrc"
