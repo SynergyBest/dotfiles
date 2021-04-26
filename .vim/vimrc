@@ -17,7 +17,7 @@ Plug 'sheerun/vim-polyglot' " Lots of language support for vim
 Plug 'vimsence/vimsence' " Discord rich presence for vim
 Plug 'tpope/vim-fugitive' " Git extensions for vim
 Plug 'leafgarland/typescript-vim' " Typescript support
-Plug 'ycm-core/YouCompleteMe'
+" Plug 'ycm-core/YouCompleteMe'
 
 call plug#end()
 
