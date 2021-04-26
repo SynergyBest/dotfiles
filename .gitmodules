@@ -10,9 +10,6 @@
 [submodule ".vim/plugged/vimsence"]
 	path = .vim/plugged/vimsence
 	url = https://github.com/vimsence/vimsence
-[submodule ".vim/plugged/YouCompleteMe"]
-	path = .vim/plugged/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe
 [submodule ".vim/plugged/vim-fugitive"]
 	path = .vim/plugged/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
