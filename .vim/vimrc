@@ -1,7 +1,7 @@
 "===========[ Cool stuffl ]===========
 set nocompatible
 set encoding=utf-8
-
+set number
 
 "===========[ End cool stuff ]
 
@@ -17,9 +17,14 @@ call plug#end()
 
 "===========[ End plugin section ]===========
 
+"===========[ Visuals ]===========
 syntax on
-set number
 colorscheme onedark
+
+"===========[ End Visuals ]===========
+
 "===========[ Quick vimrc shortcuts ]===========
 nnoremap <Leader>ve :e ~/.dotfiles/.vim/vimrc<CR>
 nnoremap <Leader>vr :source ~/.dotfiles/.vim/vimrc<CR>
+
+"===========[ End quick vimrc shortcuts ]===========
