@@ -2,6 +2,7 @@
 tap "homebrew/command-not-found" # Homebrew's version of Ubuntu's command not found
 tap "homebrew/cask-fonts" # For fonts
 tap "homebrew/aliases" # So I can set homebrew aliases
+tap "powershell/tap" # To install cli only (non cask) powershell
 #===[ End homebrew taps ]===#
 
 #===[ Developer tools ]===#
@@ -13,13 +14,21 @@ brew "cmake" # Sometimes people don't use GNU make
 #===[ Assorted CLI tools ]===#
 brew "wget" # For times I don't want to use cURL
 brew "vim" # I need +python3 for vim
+brew "emacs" # For tetris
+brew "youtube-dl" # For downloading videos lol
 cask "1password-cli" #  I love to screw around with over complicated tools, also why this is cask is beyond me 😑
 #===[ End Assorted CLI tools ]===#
+
+#===[ Fun CLI tools ]===#
+brew "vitetris" # Tetris
+brew "git-game" # Git commit author guessing game
+brew "nsnake" # CLI snake
+#===[ End Fun CLI tools ]===#
 
 #===[ Shells ]===#
 brew "bash" # macOS default version of bash is 2 versions behind latest because apple doesn't like GPL-3.0
 brew "zsh" # cause I want the latest and greatest
-brew "powershell/tap/powershell" # idk
+brew "powershell"
 brew "fish" # I like to mess around with fish sometimes
 #===[ End Shells ]===#
 

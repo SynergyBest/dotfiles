@@ -1,0 +1,4 @@
+ignore-globs:
+  - .git
+size: default
+symlink-arrow: ⇒
