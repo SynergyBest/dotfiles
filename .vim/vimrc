@@ -1,14 +1,14 @@
- "===========[ Vim settings ]===========
- set visualbell
- set tabstop=4 softtabstop=4
- set shiftwidth=4
- set expandtab
- set smartindent
- set nowrap
- set undodir=~/.vimundodir
- set undofile
+" Random settings 
+set visualbell
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set nowrap
+set undodir=~/.vimundodir
+set undofile
 
-"===========[ Plugin section ]===========
+" Plugins
 call plug#begin('$HOME/.dotfiles/.vim/plugged')
 
 Plug 'mhinz/vim-startify' " Cool vim start screen
@@ -21,11 +21,13 @@ Plug 'leafgarland/typescript-vim' " Typescript support
 
 call plug#end()
 
-"===========[ Visuals ]===========
+" Some visuals
 syntax on
 colorscheme onedark
+set number
 
-"===========[ Quick vimrc shortcuts ]===========
+" Quick shortcuts to edit an reload my vimrc
 nnoremap <Leader>ve :e ~/.dotfiles/.vim/vimrc<CR>
+" The above shortcut (\ve) opens my vimrc
 nnoremap <Leader>vr :source ~/.dotfiles/.vim/vimrc<CR>
-
+" and the other one (\vr) reloads my vimrc
