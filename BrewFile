@@ -1,0 +1,41 @@
+#===[ Homebrew taps ]===#
+tap "homebrew/command-not-found" # Homebrew's version of Ubuntu's command not found
+tap "homebrew/cask-fonts" # For fonts
+tap "homebrew/aliases" # So I can set homebrew aliases
+#===[ End homebrew taps ]===#
+
+#===[ Developer tools ]===#
+brew "gcc" # Because sometimes LLVM just doesn't cut it
+brew "make" # Superior to CMAKE and also I want it to not be 14 years behind
+brew "cmake" # Sometimes people don't use GNU make
+#===[ End Developer tools ]===#
+
+#===[ Assorted CLI tools ]===#
+brew "wget" # For times I don't want to use cURL
+brew "vim" # I need +python3 for vim
+cask "1password-cli" I love to screw around with over complicated tools, also why this is cask is beyond me 😑
+#===[ End Assorted CLI tools ]===#
+
+#===[ Shells ]===#
+brew "bash" # macOS default version of bash is 2 versions behind latest because apple doesn't like GPL-3.0
+brew "zsh" # cause I want the latest and greatest
+brew "powershell/tap/powershell" # idk
+brew "fish" # I like to mess around with fish sometimes
+#===[ End Shells ]===#
+
+#===[ Languages ]===#
+brew "nvm" # Node version manager (Makes node easy to manage)
+brew "go" # Golang ¯\_(ツ)_/¯
+brew "ruby" # I need ruby for quite a few things, such as github linguist
+#===[ End Languages ]===#
+
+#===[ Common dependencies ]===#
+brew "pkg-config" # Needed for github-linguist
+brew "icu4c" # See above
+#===[ End Common dependencies ]===#
+
+#===[ Fonts ]===#
+cask "font-input" # My font for coding
+cask "font-jetbrains-mono" # Also a font for coding
+cask "font-fira-code" # I want to mess around with ligatures
+#===[ End Fonts ]===#
