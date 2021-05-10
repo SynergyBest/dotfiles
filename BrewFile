@@ -13,7 +13,7 @@ brew "cmake" # Sometimes people don't use GNU make
 #===[ Assorted CLI tools ]===#
 brew "wget" # For times I don't want to use cURL
 brew "vim" # I need +python3 for vim
-cask "1password-cli" I love to screw around with over complicated tools, also why this is cask is beyond me 😑
+cask "1password-cli" #  I love to screw around with over complicated tools, also why this is cask is beyond me 😑
 #===[ End Assorted CLI tools ]===#
 
 #===[ Shells ]===#
